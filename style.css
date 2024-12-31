@@ -591,7 +591,149 @@ a:hover .tooltip,
 
 /* BreakPoints */
 
+
+@media screen and (max-width: 1200px) {
     
+    html {
+        font-size: 55%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .section {
+        padding: 0 4%;
+    }
+    .resume,
+    .portfolio {
+        padding-top: 1.5rem;
+        padding-bottom: 27rem;
+    }
+
+    .contact {
+        padding-top: 1.5rem;
+        padding-bottom: 18rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .nav {
+        bottom: 0;
+    }
+
+    .home,
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .img-box {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .resume,
+    .portfolio {
+        padding-bottom: 25rem;
+    }
+
+    .contact {
+        padding-bottom: 16rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume,
+    .portfolio {
+        padding-top: 1rem;
+        padding-bottom: 22rem;
+    }
+    .tab-box {
+        margin-top: 0;
+    }
+
+    .contact {
+        padding-top: 1rem;
+    }
+    
+    .nav {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .home-info,
+    .about-info {
+        text-align: center;
+    }
+
+    .home-info h1 {
+        font-size: 5rem;
+    }
+
+    .home-info .btn-sci {
+        flex-direction: column-reverse;
+    }
+
+    .home-info .btn-sci .sci {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .img-box {
+        width: 30rem;
+        height: 30rem;
+    }
+    .about-info .tittle {
+        text-align: center;
+    }
+}
+    
+@media screen and (max-width: 400px) {
+
+    .nav {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .home-info,
+    .about-info {
+        text-align: center;
+    }
+
+    .home-info h1 {
+        font-size: 5rem;
+    }
+
+    .home-info .btn-sci {
+        flex-direction: column-reverse;
+    }
+
+    .home-info .btn-sci .sci {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .img-box {
+        width: 30rem;
+        height: 30rem;
+    }
+    .about-info .tittle {
+        text-align: center;
+    }
+}
+
+
 
 
 
